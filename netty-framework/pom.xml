@@ -24,9 +24,15 @@
 	<version>1.0.0</version>
     <name>netty-framework by Apache RocketMQ</name>
 
+    <parent>
+        <artifactId>netty-learning</artifactId>
+        <groupId>com.prestigeding</groupId>
+        <version>1.0.0</version>
+    </parent>
+
     <properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
